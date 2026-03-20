@@ -1,0 +1,276 @@
+{% extends 'base.html' %}
+
+{% block title %}Home | Portfolio{% endblock %}
+
+{% block content %}
+{% include 'partials/navbar.html' %}
+
+<header id="top" class="hero-section reveal">
+  <div class="container">
+    <div class="hero-shell hero-split">
+      <div class="row align-items-center g-4">
+        <div class="col-lg-6">
+          <p class="hero-kicker text-uppercase mb-3">Hello there, welcome to my site</p>
+          <h1 class="hero-title">
+            I'm <span class="hero-name">Akash Pal</span>
+          </h1>
+          <h2 class="hero-subtitle">
+            <span class="hero-accent">A Data Analyst</span>
+            <span class="hero-muted">focused on insight-driven decisions</span>
+          </h2>
+          <p class="lead text-muted hero-summary">
+            Aspiring Data Analyst with hands-on Python, SQL, and data visualization skills focused on turning data into insights.
+          </p>
+          <div class="d-flex flex-wrap gap-3 mt-4">
+            <a class="btn btn-gradient btn-lg" href="#projects">View Data Projects</a>
+            <a class="btn btn-outline-dark btn-lg" href="#contact">Let's Connect</a>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="hero-media">
+            <div class="hero-frame">
+              <img
+                src="/static/main/profile.png"
+                alt="Profile photo"
+                class="hero-profile"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section id="about" class="section reveal">
+  <div class="container">
+    <div class="section-shell">
+      {% include 'partials/section_heading.html' with eyebrow='About' title='Designing experiences that feel effortless' %}
+      <div class="row gy-4">
+        <div class="col-lg-6">
+          <p class="text-muted">
+            Aspiring Data Analyst with a background in Computer Applications and hands-on experience in data processing, database management, and analytical problem solving through academic projects. Eager to leverage data analysis skills to uncover insights and support data-driven decisions.
+          </p>
+        </div>
+        <div class="col-lg-6">
+          <div class="stat-grid">
+            <div class="stat-card surface-light">
+              <h3 class="fw-bold">35+</h3>
+              <p class="mb-0 text-muted">Projects launched</p>
+            </div>
+            <div class="stat-card surface-light">
+              <h3 class="fw-bold">12</h3>
+              <p class="mb-0 text-muted">Awards won</p>
+            </div>
+            <div class="stat-card surface-light">
+              <h3 class="fw-bold">5</h3>
+              <p class="mb-0 text-muted">Industries served</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="section bg-contrast reveal">
+  <div class="container">
+    <div class="section-shell">
+      {% include 'partials/section_heading.html' with eyebrow='Skills' title='Technical stack and strengths' %}
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="skill-card surface p-4">
+            <h5 class="fw-semibold mb-3">Programming Languages</h5>
+            <div class="skill-tags">
+              <span class="skill-tag">Python</span>
+              <span class="skill-tag">C</span>
+              <span class="skill-tag">C++</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="skill-card surface p-4">
+            <h5 class="fw-semibold mb-3">Data Analysis & Libraries</h5>
+            <div class="skill-tags">
+              <span class="skill-tag">Pandas</span>
+              <span class="skill-tag">NumPy</span>
+              <span class="skill-tag">Data Cleaning</span>
+              <span class="skill-tag">EDA</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="skill-card surface p-4">
+            <h5 class="fw-semibold mb-3">Data Visualization</h5>
+            <div class="skill-tags">
+              <span class="skill-tag">Matplotlib</span>
+              <span class="skill-tag">Seaborn</span>
+              <span class="skill-tag">Excel Charts</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="skill-card surface p-4">
+            <h5 class="fw-semibold mb-3">Database Management</h5>
+            <div class="skill-tags">
+              <span class="skill-tag">MySQL</span>
+              <span class="skill-tag">SQL Queries</span>
+              <span class="skill-tag">Data Retrieval</span>
+              <span class="skill-tag">Database Design</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="skill-card surface p-4">
+            <h5 class="fw-semibold mb-3">Tools & Platforms</h5>
+            <div class="skill-tags">
+              <span class="skill-tag">JIRA</span>
+              <span class="skill-tag">Postman</span>
+              <span class="skill-tag">Power BI</span>
+              <span class="skill-tag">Google Sheets</span>
+              <span class="skill-tag">VS Code</span>
+              <span class="skill-tag">Jupyter Notebook</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="skill-card surface p-4">
+            <h5 class="fw-semibold mb-3">Web Technologies</h5>
+            <div class="skill-tags">
+              <span class="skill-tag">HTML</span>
+              <span class="skill-tag">CSS</span>
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">Bootstrap</span>
+              <span class="skill-tag">Django</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="skill-card surface p-4">
+            <h5 class="fw-semibold mb-3">Other Skills</h5>
+            <div class="skill-tags">
+              <span class="skill-tag">Data Interpretation</span>
+              <span class="skill-tag">Statistical Thinking</span>
+              <span class="skill-tag">Problem Solving</span>
+              <span class="skill-tag">Analytical Thinking</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="section reveal">
+  <div class="container">
+    <div class="section-shell">
+      {% include 'partials/section_heading.html' with eyebrow='Projects' title='Academic & Personal Projects' %}
+      <div class="row g-4">
+        {% for project in projects %}
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100 project-card surface reveal">
+              {% if project.image %}
+                <img
+                  src="{{ project.image.url }}"
+                  class="card-img-top"
+                  alt="{{ project.title }}"
+                  loading="lazy"
+                  decoding="async"
+                />
+              {% endif %}
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title fw-bold">{{ project.title }}</h5>
+                <p class="card-text text-muted flex-grow-1">{{ project.description }}</p>
+                <div class="d-flex align-items-center justify-content-between mt-3">
+                  <div class="d-flex gap-3 text-muted small">
+                    <span class="d-flex align-items-center gap-1">?? {{ project.likes|default:0 }}</span>
+                    <span class="d-flex align-items-center gap-1">?? {{ project.views|default:0 }}</span>
+                  </div>
+                  {% if project.link %}
+                    <a href="{{ project.link }}" class="project-link">View</a>
+                  {% endif %}
+                </div>
+              </div>
+            </div>
+          </div>
+        {% empty %}
+          <div class="col-12">
+            <p class="text-muted mb-2">Highlights from my resume:</p>
+            <ul class="text-muted mb-0">
+              <li>Customer Churn & Risk Analysis: Built an interactive dashboard to identify churn patterns and support data-driven decisions.</li>
+              <li>ShopNow E-commerce Web App: Responsive UI with product listing, category views, cart management, and checkout modal.</li>
+            </ul>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="section bg-contrast reveal">
+  <div class="container">
+    <div class="section-shell">
+      {% include 'partials/section_heading.html' with eyebrow='Contact' title="Let's build something together" %}
+      <div class="row g-4">
+        <div class="col-lg-6">
+          <div class="contact-card surface p-4">
+            <h5 class="fw-semibold">Start a project</h5>
+            <p class="text-muted">
+              Tell me about your goals, timeline, and the kind of experience you want to create.
+            </p>
+            <ul class="list-unstyled text-muted mb-0">
+              <li>Email: akspal2004@gmail.com</li>
+              <li>Location: Dehradun, Uttarakhand, India</li>
+              <li>Phone: +91 6397548601
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          {% if messages %}
+            {% for message in messages %}
+              <div class="alert alert-success" role="alert">{{ message }}</div>
+            {% endfor %}
+          {% endif %}
+          {% if form.errors %}
+            <div class="alert alert-danger" role="alert">Please fix the errors below.</div>
+          {% endif %}
+          <form class="contact-form surface p-4 needs-validation" method="post" novalidate>
+            {% csrf_token %}
+            <div class="row g-3">
+              <div class="col-md-6">
+                <label class="form-label" for="id_name">Name</label>
+                {{ form.name }}
+                <div class="invalid-feedback">Please enter your name.</div>
+                {% if form.name.errors %}
+                  <div class="text-danger small mt-1">{{ form.name.errors|striptags }}</div>
+                {% endif %}
+              </div>
+              <div class="col-md-6">
+                <label class="form-label" for="id_email">Email</label>
+                {{ form.email }}
+                <div class="invalid-feedback">Please provide a valid email.</div>
+                {% if form.email.errors %}
+                  <div class="text-danger small mt-1">{{ form.email.errors|striptags }}</div>
+                {% endif %}
+              </div>
+              <div class="col-12">
+                <label class="form-label" for="id_message">Project details</label>
+                {{ form.message }}
+                <div class="invalid-feedback">Please share a message.</div>
+                {% if form.message.errors %}
+                  <div class="text-danger small mt-1">{{ form.message.errors|striptags }}</div>
+                {% endif %}
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-gradient w-100">Send message</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% include 'partials/footer.html' %}
+{% endblock %}

@@ -1,0 +1,42 @@
+AKASH PAL  
+Dehradun, Uttarakhand, India  
+📞 +91 6397548601 | ✉️ akspal2004@gmail.com  
+LinkedIn  | GitHub  
+Professional Summary  
+ 
+Aspiring Data Analyst with a background in Computer Applications  and hands -on knowledge of Python, SQL, and 
+data visualization tools . Experienced in data processing, database management, and analytical problem solving 
+through academic projects. Eager to leverage data analysis skills to uncover insights and contribute to business 
+decision -making in a data -driven organization.
+Education  
+Bachelor of Computer Applications (BCA)  
+Hemvati Nandan Bahuguna Garhwal University                                                                      Expected Graduation: 2026  
+Intermediate ,  88.6%                                                                                                                  Uttarakhand Board, 2023  
+High School ,  93.6                                                                                                                     Uttarakhand Board, 2021  
+Technical Skills  
+Programming Languages  : Python, C , C++  
+Data Analysis & Libraries  : Pandas, NumPy, Data Cleaning, Exploratory Data Analysis (EDA)  
+Data Visualization  : Matplotlib, Seaborn, Microsoft Excel Charts  
+Database Management  : MySQL, SQL Queries, Data Retrieval, Database Design  
+Tools & Platforms  : JIRA , Postman , , Power BI, Google Sheets, VS Code, Jupyter Notebo ok 
+Web Technologies  : HTML, CSS, JavaScript ,Bootstrap,Django  
+Other Skills  : Data Interpretation, Statistical Thinking, Problem Solving, Analytical Thinking  
+Academic / Personal Projects          Github Link  
+Customer Churn & Risk Analysis Project   
+• Built an interactive dashboard to identify potential customer churn and risk patterns.  
+• Analyzed customer behavior and trends to su pport data -driven decisions.  
+• Generated insights to improve customer retention strategies.  
+ShopNow – E-commerce Web App                    Github Link  
+• Built a responsive e -commerce UI using  Django, HTML, CSS, Bootstrap, and JavaScript . 
+• Features include  product listing, category -wise display, add -to-cart functionality, cart management with 
+quantity and total calculation, and c heckout modal .  
+ Certifications  
+• Cybersecurity Analyst Job Simulation – Tata (Forage)  
+• Basics of Computer – Utech Education  
+Achievements  
+• INSPIRE Certificate Award  – Secured Top 1% rank in Class 12 (Uttarakhand Board)  
+ 
+Languages  
+• Hindi – Fluent  
+• English – Professional Working Proficiency  
+ 
